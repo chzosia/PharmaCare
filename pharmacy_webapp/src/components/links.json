@@ -1,0 +1,7 @@
+{
+  "links": [
+    { "label": "Home", "href": "/home" },
+    { "label": "Products", "href": "/products" },
+    { "label": "Contact", "href": "/contact" }
+  ]
+}

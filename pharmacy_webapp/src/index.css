@@ -1,0 +1,35 @@
+/* GLOBALNE STYLE DLA CAŁEJ APLIKACJI */
+html {
+  /* Zapewnia, że html ma pełną wysokość viewportu */
+  height: 100%;
+  /* Umożliwia scrollowanie dokumentu, jeśli zawartość jest za duża */
+  overflow-y: scroll;
+  /* Poprawia scrollowanie na urządzeniach dotykowych */
+  -webkit-overflow-scrolling: touch;
+}
+
+body {
+  margin: 0;
+  padding: 0; /* Nie ma domyślnego paddingu */
+  font-family:
+    -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
+    'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /*
+    Tło globalne dla całej aplikacji.
+  */
+  background-color: #fbeaf4;
+  height: 100%;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Zapewnia, że root zawsze zajmuje co najmniej całą wysokość viewportu */
+}
+
+code {
+  font-family:
+    source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
