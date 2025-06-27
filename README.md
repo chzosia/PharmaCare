@@ -1,4 +1,4 @@
-# 🩷PharmaCare - Your Trusted and Pink Online Pharmacy🩷
+# PharmaCare🩷 - Your Trusted and Pink Online Pharmacy
 
 PharmaCare is a full-stack online pharmacy application designed to provide a seamless and secure shopping experience — all wrapped in a vibrant pink theme that makes your pharmacy visits feel friendly and welcoming.  
 
